@@ -253,8 +253,41 @@ header {
   cursor: pointer;
 }
 
-.footer{
-  height: auto;
-  width: auto;
-  background-color:#0D1B2A;
+.footer {
+  padding: 2% 2%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: #0d1b2a;
+  color: #ffffff;
+}
+
+.right-footer {
+  display: flex;
+  gap: 20px;
+}
+
+.footer p {
+  font-weight: 50;
+  font-size: 10px;
+  margin: 0;
+}
+
+.social-icons {
+  display: flex;
+
+  gap: 10px;
+}
+
+.social-icon {
+  width: 25px;
+  height: 25px;
+  background-color: transparent;
+  color: #ffffff;
+}
+
+.social-icon {
+  background-color: #ffffff;
+  border-radius: 8px;
 }
